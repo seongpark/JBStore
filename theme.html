@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <html lang="ko">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>테마스토어</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+        <link rel="apple-touch-icon" href="favicon.ico" /> 
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<meta property="og:image"              content="preview.png" />
+<meta property="og:description" content="여러 탈옥툴들을 모아둔 사이트입니다.">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <style>
+                    /* only light mode */
+@media (prefers-color-scheme: light) {
+  .dark {
+    display: none;
+  }
+}
+
+/* only dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: lightgray;
+    background: #1C1C1C;
+    font-family: 'NanumSquare', sans-serif; 
+  }
+
+  .light {
+    display: none;
+  }
+}
+
+.cardcolor {
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NanumSquare', sans-serif; 
+}
+
+.title {
+  font-size: 40px;
+}
+
+.bk1 {
+  height: 50px;
+}
+
+.div1 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("sd5.jpg");
+  color: white;
+}
+
+.title {
+  font-size: 45px;
+  color: white;
+}
+
+.footer {
+padding-bottom: 20px;
+padding-top: 20px;
+color: white;
+  background-color: #2E2E2E;
+}
+
+body {
+  font-family: 'NanumSquare', sans-serif; 
+}
+        </style>
+
+    </head>
+    <body>
+      <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="index.html">JB스토어</a></li>
+                    <li><a href="repo.html">레포스토어</a></li>
+                    <li><a href="theme.html">테마스토어</a></li>
+                    <li>
+                      <a href="#">유틸리티&nbsp; <i class="fas fa-chevron-down"></i></a>
+                      <div class="uk-navbar-dropdown">
+                          <ul class="uk-nav uk-navbar-dropdown-nav">
+                              <li><a href="check.html">내 기기 프로세서 체크</a></li>
+                              <li><a href="sep.html">내 기기 SEP 체크</a></li>
+                          </ul>
+                      </div>
+                  </li>
+                    <li>
+                        <a href="#">기타&nbsp; <i class="fas fa-chevron-down"></i></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">개발자 SNS</a></li>
+                                <li><a href="https://peuri.ga">홈페이지</a></li>
+                                <li><a href="http://peuri.kro.kr">블로그</a></li>
+                                <li><a href="http://insta.peuri.kro.kr">인스타그램</a></li>
+                                <li><a href="http://youtube.peuri.kro.kr">유튜브</a></li><br>
+                                <li class="uk-nav-divider"></li><br>
+                                <li class="uk-active">콤마</li>
+                                <li><a href="https://kom-ma.kro.kr">홈페이지</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="div1">
+      <center>
+      <div class="title">
+<b>테마스토어</b>
+    </div>
+      <span style="opacity: 0.9;">여러 테마들로 내 폰을 꾸며보세요!</span>
+    </center>
+    </div>
+      
+
+<div class="uk-container uk-container-xlarge">
+
+
+  <br>  <br>
+  <br>
+
+  <div class="uk-child-width-1-5@m" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="bigsur.png" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h5 class="uk-card-title">Big Sur 테마</h5>
+                  <p>빅 서 스타일 테마입니다.</p>   
+                  <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"  onclick = "location.href='theme/bs.mobileconfig' ">시스템 적용</button>
+                  <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" onclick = "location.href='theme/bsm.mobileconfig'">서드파티 앱 적용</button>
+                </div>
+        </div>
+    </div>
+    <div>
+      <div class="uk-card uk-card-default">
+        <div class="uk-card-media-top">
+            <img src="oyster.png" alt="">
+        </div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title">Oyster</h3>
+            <p>Oyster 스타일 테마입니다.</p>
+            <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"  onclick = "location.href='theme/oyster.mobileconfig' ">시스템 적용</button>
+            <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" onclick = "location.href='theme/oym.mobileconfig'">서드파티 앱 적용</button>
+
+          </div>
+    </div>
+  </div>
+  <div>
+    <div class="uk-card uk-card-default">
+      <div class="uk-card-media-top">
+          <img src="nook.png" alt="">
+      </div>
+      <div class="uk-card-body">
+          <h3 class="uk-card-title">NookPhone</h3>
+          <p>NookPhone 스타일 테마입니다.</p>
+          <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"  onclick = "location.href='theme/NookPhone.mobileconfig' ">시스템 적용</button>
+          <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" onclick = "location.href='theme/nom.mobileconfig'">서드파티 앱 적용</button>
+
+        </div>
+  </div>
+</div>
+<div>
+  <div class="uk-card uk-card-default">
+    <div class="uk-card-media-top">
+        <img src="darker.png" alt="">
+    </div>
+    <div class="uk-card-body">
+        <h3 class="uk-card-title">Darker Black</h3>
+        <p>다크 스타일 테마입니다.</p>
+        <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"  onclick = "location.href='theme/Darker_Blackk.mobileconfig' ">시스템 적용</button>
+        <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" onclick = "location.href='theme/dm.mobileconfig'">서드파티 앱 적용</button>
+</div>
+</div>
+</div>
+<div>
+  <div class="uk-card uk-card-default">
+    <div class="uk-card-media-top">
+        <img src="mk.png" alt="">
+    </div>
+    <div class="uk-card-body">
+        <h3 class="uk-card-title">Milkshake</h3>
+        <p>인기 테마중 하나인 밀크쉐이크입니다.</p>
+        <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"  onclick = "location.href='theme/Milkshake.mobileconfig' ">시스템 적용</button>
+        <button type="button" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" onclick = "location.href='zbra://sources/add/https://cydia.saurik.com/api/share#?source=http://apt.thebigboss.org/repofiles/cydia/'">서드파티 앱 적용</button>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<br>  <br>
+
+      <div class="footer">
+        <div class="uk-container uk-container-xlarge">
+          <center>
+        <p>Copyright 2020. 제비스토어 All rights reserved.<br>
+      <a href="https://toon.at/donate/637219205827879710"><span style="color: white;">후원하기 | 
+      <a href="http://kom-ma.kro.kr"><span style="color: white;">Made by KOM.MA</span></a>
+      </center>
+      </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+        </body>
+</html>
