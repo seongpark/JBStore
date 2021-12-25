@@ -10,5 +10,5 @@ iOS/iPadOS의 탈옥 툴들과 여러 유틸리티들을 한번에 다운받아�
   * iOS/iPadOS의 테마를 다운받을 수 있습니다.
 
 ## 사용하기
-* <a hre="https://seongpark.github.io/JBStore/">방문하기</a>
+* <a href="https://seongpark.github.io/JBStore/">방문하기</a>
 * MIT 라이센스에 따릅니다.
